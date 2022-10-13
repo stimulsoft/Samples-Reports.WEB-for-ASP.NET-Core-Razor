@@ -1,0 +1,18 @@
+﻿@page
+@model MSSQLCacheModel
+@using Stimulsoft.Report.Mvc;
+@{
+    ViewData["Title"] = "MS SQL Cache";
+}
+
+<h2>MS SQL Cache</h2>
+<br />
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    }
+})

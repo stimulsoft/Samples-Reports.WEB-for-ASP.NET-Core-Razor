@@ -1,0 +1,30 @@
+﻿@page "{id?}"
+@model ViewModel
+@using Stimulsoft.Report.Mvc
+@using Stimulsoft.Report.Web
+@using Stimulsoft.System.Web.UI.WebControls
+@{
+    ViewData["Title"] = "Stimulsoft Reports.Web - Razor Demo";
+}
+
+@Html.StiNetCoreViewer("StiNetCoreViewer1", new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent",
+        DesignReport = "Design"
+    },
+    Appearance =
+    {
+        BackgroundColor = System.Drawing.Color.FromArgb(0xe8, 0xe8, 0xe8),
+        ScrollbarsMode = true
+    },
+    Toolbar =
+    {
+        DisplayMode = StiToolbarDisplayMode.Separated,
+        ShowDesignButton = true
+    },
+    Width = Unit.Percentage(100),
+    Height = Unit.Percentage(100)
+})

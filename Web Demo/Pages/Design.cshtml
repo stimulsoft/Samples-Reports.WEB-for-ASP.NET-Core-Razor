@@ -1,0 +1,24 @@
+﻿@page "{id?}"
+@model DesignModel
+@using Stimulsoft.Report.Mvc
+@using Stimulsoft.Report.Web
+@using Stimulsoft.System.Web.UI.WebControls
+@{
+    ViewData["Title"] = "Stimulsoft Reports.Web - Razor Demo";
+}
+
+@Html.StiNetCoreDesigner("StiNetCoreDesigner1", new StiNetCoreDesignerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        PreviewReport = "PreviewReport",
+        SaveReport = "SaveReport",
+        DesignerEvent = "DesignerEvent",
+        Exit = "ExitDesigner"
+    },
+    FileMenu =
+    {
+        ShowExit = true
+    }
+})

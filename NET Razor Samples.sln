@@ -7,7 +7,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showing a Report in the Vie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Editing a Report Template in the Designer", "Editing a Report Template in the Designer\Editing a Report Template in the Designer.csproj", "{0385EFE7-214B-4D63-AC9C-26378DE3F526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Demo", "Web Demo\Web Demo.csproj", "{438E4F73-9802-4A84-AA76-9AB6BCAA8F7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web Demo", "Web Demo\Web Demo.csproj", "{438E4F73-9802-4A84-AA76-9AB6BCAA8F7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adding a Custom Function to the Designer", "Adding a Custom Function to the Designer\Adding a Custom Function to the Designer.csproj", "{ED174854-E1BC-493E-B18C-4265505AE448}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adding a Font to the Resource", "Adding a Font to the Resource\Adding a Font to the Resource.csproj", "{AFFC9164-9AEA-4E75-A433-2743EC86A2AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Changing the Viewer Theme", "Changing the Viewer Theme\Changing the Viewer Theme.csproj", "{D7276539-465A-4EF2-AEC9-003A3A2F64F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuring Report caching", "Configuring Report caching\Configuring Report caching.csproj", "{0233072E-D352-40D1-8161-1A86CF0FEC36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connecting to Data from Code", "Connecting to Data from Code\Connecting to Data from Code.csproj", "{7813B869-1133-4B82-856F-C107DF9A9940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating a Custom Button on the Viewer Toolbar", "Creating a Custom Button on the Viewer Toolbar\Creating a Custom Button on the Viewer Toolbar.csproj", "{10A53942-FA67-4D47-B142-3C64B79DB7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating a Custom Parameter Panel for the Viewer", "Creating a Custom Parameter Panel for the Viewer\Creating a Custom Parameter Panel for the Viewer.csproj", "{1228BEC3-8276-4386-9368-5BA5F52EC8DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exporting and Printing a Report from Code", "Exporting and Printing a Report from Code\Exporting and Printing a Report from Code.csproj", "{F8330EA7-F531-4B5A-847B-E7B1D6C5B4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localizing the Viewer", "Localizing the Viewer\Localizing the Viewer.csproj", "{84B0BA4E-C5A8-47B8-A082-5C56302E612D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managing Report Printing and Exporting", "Managing Report Printing and Exporting\Managing Report Printing and Exporting.csproj", "{5A2D8DDB-D505-4A78-BE6C-9CFC8240834E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +47,46 @@ Global
 		{438E4F73-9802-4A84-AA76-9AB6BCAA8F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{438E4F73-9802-4A84-AA76-9AB6BCAA8F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{438E4F73-9802-4A84-AA76-9AB6BCAA8F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED174854-E1BC-493E-B18C-4265505AE448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED174854-E1BC-493E-B18C-4265505AE448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED174854-E1BC-493E-B18C-4265505AE448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED174854-E1BC-493E-B18C-4265505AE448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFC9164-9AEA-4E75-A433-2743EC86A2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFC9164-9AEA-4E75-A433-2743EC86A2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFC9164-9AEA-4E75-A433-2743EC86A2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFC9164-9AEA-4E75-A433-2743EC86A2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7276539-465A-4EF2-AEC9-003A3A2F64F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7276539-465A-4EF2-AEC9-003A3A2F64F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7276539-465A-4EF2-AEC9-003A3A2F64F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7276539-465A-4EF2-AEC9-003A3A2F64F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0233072E-D352-40D1-8161-1A86CF0FEC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0233072E-D352-40D1-8161-1A86CF0FEC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0233072E-D352-40D1-8161-1A86CF0FEC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0233072E-D352-40D1-8161-1A86CF0FEC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7813B869-1133-4B82-856F-C107DF9A9940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7813B869-1133-4B82-856F-C107DF9A9940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7813B869-1133-4B82-856F-C107DF9A9940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7813B869-1133-4B82-856F-C107DF9A9940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A53942-FA67-4D47-B142-3C64B79DB7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A53942-FA67-4D47-B142-3C64B79DB7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A53942-FA67-4D47-B142-3C64B79DB7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A53942-FA67-4D47-B142-3C64B79DB7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1228BEC3-8276-4386-9368-5BA5F52EC8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1228BEC3-8276-4386-9368-5BA5F52EC8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1228BEC3-8276-4386-9368-5BA5F52EC8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1228BEC3-8276-4386-9368-5BA5F52EC8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8330EA7-F531-4B5A-847B-E7B1D6C5B4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8330EA7-F531-4B5A-847B-E7B1D6C5B4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8330EA7-F531-4B5A-847B-E7B1D6C5B4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8330EA7-F531-4B5A-847B-E7B1D6C5B4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B0BA4E-C5A8-47B8-A082-5C56302E612D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B0BA4E-C5A8-47B8-A082-5C56302E612D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B0BA4E-C5A8-47B8-A082-5C56302E612D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B0BA4E-C5A8-47B8-A082-5C56302E612D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2D8DDB-D505-4A78-BE6C-9CFC8240834E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2D8DDB-D505-4A78-BE6C-9CFC8240834E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2D8DDB-D505-4A78-BE6C-9CFC8240834E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2D8DDB-D505-4A78-BE6C-9CFC8240834E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
