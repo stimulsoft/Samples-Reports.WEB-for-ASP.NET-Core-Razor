@@ -31,15 +31,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Managing Report Printing an
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rendering and Exporting a Report in the Console App", "Rendering and Exporting a Report in the Console App\Rendering and Exporting a Report in the Console App.csproj", "{95F28B0D-F762-42E7-A20E-8D76823FECB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saving a Report Template in the Designer", "Saving a Report Template in the Designer\Saving a Report Template in the Designer.csproj", "{D0951407-156F-4C91-85AF-BC54E3D42490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saving a Report Template in the Designer", "Saving a Report Template in the Designer\Saving a Report Template in the Designer.csproj", "{D0951407-156F-4C91-85AF-BC54E3D42490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sending a Report by Email", "Sending a Report by Email\Sending a Report by Email.csproj", "{70B1AFB1-30E8-45C4-9852-07577EBF6C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sending a Report by Email", "Sending a Report by Email\Sending a Report by Email.csproj", "{70B1AFB1-30E8-45C4-9852-07577EBF6C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showing Interactive Reports", "Showing Interactive Reports\Showing Interactive Reports.csproj", "{207551AF-3607-4B5A-A6E7-BC80E8B28046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showing Interactive Reports", "Showing Interactive Reports\Showing Interactive Reports.csproj", "{207551AF-3607-4B5A-A6E7-BC80E8B28046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using a Custom Data Adapter", "Using a Custom Data Adapter\Using a Custom Data Adapter.csproj", "{557F7689-2805-446D-8AC2-7671266FF870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using a Custom Data Adapter", "Using a Custom Data Adapter\Using a Custom Data Adapter.csproj", "{557F7689-2805-446D-8AC2-7671266FF870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Business Objects in the Report", "Using Business Objects in the Report\Using Business Objects in the Report.csproj", "{5CF97F9A-2AA1-45D1-BF88-A2C30A55F165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using Business Objects in the Report", "Using Business Objects in the Report\Using Business Objects in the Report.csproj", "{5CF97F9A-2AA1-45D1-BF88-A2C30A55F165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Full-Screen Mode in the Viewer", "Using the Full-Screen Mode in the Viewer\Using the Full-Screen Mode in the Viewer.csproj", "{F73CCAB2-8B62-48E9-A461-74B35C161786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Variables in the Report", "Using Variables in the Report\Using Variables in the Report.csproj", "{4A3357D1-7E59-4034-B917-1B508CABFB69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{5CF97F9A-2AA1-45D1-BF88-A2C30A55F165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF97F9A-2AA1-45D1-BF88-A2C30A55F165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF97F9A-2AA1-45D1-BF88-A2C30A55F165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73CCAB2-8B62-48E9-A461-74B35C161786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73CCAB2-8B62-48E9-A461-74B35C161786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73CCAB2-8B62-48E9-A461-74B35C161786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73CCAB2-8B62-48E9-A461-74B35C161786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3357D1-7E59-4034-B917-1B508CABFB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3357D1-7E59-4034-B917-1B508CABFB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3357D1-7E59-4034-B917-1B508CABFB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3357D1-7E59-4034-B917-1B508CABFB69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
