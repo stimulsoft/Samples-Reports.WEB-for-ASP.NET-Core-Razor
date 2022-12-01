@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Using_Variables_in_the_Report.Pages
+namespace Using_Report_Variables_in_Code.Pages
 {
     public class PrivacyModel : PageModel
     {

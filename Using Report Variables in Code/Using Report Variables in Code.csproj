@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Using_Variables_in_the_Report</RootNamespace>
+    <RootNamespace>Using_Report_Variables_in_Code</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

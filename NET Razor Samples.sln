@@ -43,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using Business Objects in t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Full-Screen Mode in the Viewer", "Using the Full-Screen Mode in the Viewer\Using the Full-Screen Mode in the Viewer.csproj", "{F73CCAB2-8B62-48E9-A461-74B35C161786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Variables in the Report", "Using Variables in the Report\Using Variables in the Report.csproj", "{4A3357D1-7E59-4034-B917-1B508CABFB69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Report Variables in Code", "Using Report Variables in Code\Using Report Variables in Code.csproj", "{4A3357D1-7E59-4034-B917-1B508CABFB69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
