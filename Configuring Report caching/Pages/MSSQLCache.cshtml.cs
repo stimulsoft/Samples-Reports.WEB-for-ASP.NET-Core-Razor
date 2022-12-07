@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Stimulsoft.Report.Mvc;
 using Stimulsoft.Report;
-using System.Data.SqlClient;
 using Stimulsoft.Report.Web;
+using Microsoft.Data.SqlClient;
 
 namespace Configuring_Report_caching.Pages
 {
