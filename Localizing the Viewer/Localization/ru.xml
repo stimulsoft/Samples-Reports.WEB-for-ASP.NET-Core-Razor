@@ -400,6 +400,7 @@
     <DashboardWindowTitleNew>Новая панель индикаторов</DashboardWindowTitleNew>
     <DeleteFile>Удалить файл</DeleteFile>
     <DoNotAskMe>Больше не спрашивать</DoNotAskMe>
+    <EnterUserNameToLogin>Для входа введите User Name (email).</EnterUserNameToLogin>
     <ExecutionError>Ошибка запуска</ExecutionError>
     <ExpiredDate>Дата истечения срока</ExpiredDate>
     <FileStorageWindowTitleEdit>Редактирование хранилища файлов</FileStorageWindowTitleEdit>
@@ -744,9 +745,9 @@
     <RunFieldsEditor>Запустить Редактор Полей</RunFieldsEditor>
     <RunFieldsEditorInfo>Запустить Редактор Полей для изменения взяимодействия каждой колонки таблицы.</RunFieldsEditorInfo>
     <SelectAll>(В&amp;ыбрать все)</SelectAll>
-    <ShowAllValue>Показывать (Все) элемент</ShowAllValue>
+    <ShowAllValue>Показывать элемент (Все)</ShowAllValue>
     <ShowAsPercentages>Показать в процентах</ShowAsPercentages>
-    <ShowBlanks>Отобразить пустоты</ShowBlanks>
+    <ShowBlanks>Показывать пустоты</ShowBlanks>
     <SkipFirstRows>Пропустить первые строки</SkipFirstRows>
     <SortAZ>Сортировка от А до Я</SortAZ>
     <SortLargestToSmallest>Сортировка от максимального к минимальному</SortLargestToSmallest>
@@ -1338,6 +1339,7 @@
     <ColumnsThree>Три</ColumnsThree>
     <ColumnsTwo>Две</ColumnsTwo>
     <CompilingReport>Компиляция отчета</CompilingReport>
+    <CopyPropertyName>Копировать имя свойства</CopyPropertyName>
     <DockingPanels>Панели</DockingPanels>
     <HtmlPreview>HTML просмотр</HtmlPreview>
     <JsPreview>JS просмотр</JsPreview>
@@ -1383,6 +1385,7 @@
     <CsvSeparatorTab>Табуляция</CsvSeparatorTab>
     <DatabaseEdit>Изменение базы данных</DatabaseEdit>
     <DatabaseNew>Новая база данных</DatabaseNew>
+    <DataMonitor>Монитор данных</DataMonitor>
     <DataParameterEdit>Редактировать параметр</DataParameterEdit>
     <DataParameterNew>Новый параметр</DataParameterNew>
     <DataSetToBusinessObjects>DataSet в Business Objects</DataSetToBusinessObjects>
@@ -1400,6 +1403,7 @@
     <DragNewDataSource>перетащите данные на эту панель</DragNewDataSource>
     <DragNewReport>перетащите отчет на эту панель</DragNewReport>
     <EditQuery>Изменить запрос</EditQuery>
+    <EnableDataMonitor>Включить монитор данных</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Запрос SQL выполнен успешно</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Новое выражение</ExpressionNew>
     <GetColumnsFromAssembly>Взять колонки из сборки</GetColumnsFromAssembly>
@@ -1852,6 +1856,7 @@
     <cust_pm_stytextonly>Только текст (Всегда)</cust_pm_stytextonly>
     <cust_tab_commands>Команды</cust_tab_commands>
     <cust_tab_options>Свойства</cust_tab_options>
+    <cust_tab_toolbar_alignment>Выровнять панель инструментов</cust_tab_toolbar_alignment>
     <cust_tab_toolbars>Панели инструментов</cust_tab_toolbars>
     <mdisysmenu_close>Закрыть</mdisysmenu_close>
     <mdisysmenu_maximize>Максимизировать</mdisysmenu_maximize>
@@ -2268,6 +2273,7 @@
     <menuFileExit>В&amp;ыход</menuFileExit>
     <menuFileExportXMLSchema>Экспортировать XML схему...</menuFileExportXMLSchema>
     <menuFileFormNew>Создать форму</menuFileFormNew>
+    <menuFileFormOpen>Открыть форму</menuFileFormOpen>
     <menuFileImportXMLSchema>Импортировать XML схему...</menuFileImportXMLSchema>
     <menuFileMerge>Добавить...</menuFileMerge>
     <menuFileMergeXMLSchema>Добавить XML схему...</menuFileMergeXMLSchema>
@@ -2364,6 +2370,7 @@
     <ShareURLOfTheItemHasBeenUpdated>URL доступа к элементу был обновлен!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>Для того, чтобы предоставить общий доступ к отчету, его необходимо сохранить в Stimulsoft Cloud!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>Переключение между режимами приведет к потере изменений. Вы хотите продолжить?</SwitchingBetweenModes>
+    <SwitchParametersOrientation>Измените значение свойства отчета 'Расположение параметров' на '{0}', для того чтобы эта категория отображалась на панели параметров.</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>Регистрация прошла успешно!</TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>Это поле не заполнено!</ThisFieldIsNotSpecified>
     <ThisFunctionEmbedsAllReportDataToTheReport>Эта функция встраивает все данные отчета в ресурсы отчета и делает отчет автономным. Будьте осторожны! Все настройки данных будут изменены и не могут быть восстановлены после данного действия. Сначала необходимо сделать резервную копию отчета. {0} Вы уверены?</ThisFunctionEmbedsAllReportDataToTheReport>
@@ -2372,19 +2379,26 @@
   <Notices>
     <AccessDenied>Доступ запрещен!</AccessDenied>
     <AccountLocked>Ваш аккаунт заблокирован! Для решения проблемы, отправьте запрос на sales@stimulsoft.com!</AccountLocked>
+    <ActivationContact1>Пожалуйста, свяжитесь с нами по адресу </ActivationContact1>
+    <ActivationContact2>, чтобы решить эту проблему.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Ваша Программа Подписки для Stimulsoft Reports.Ultimate истекла раньше даты первого релиза Stimulsoft Server!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>Файл лицензии не корректен! Пожалуйста свяжитесь с нашим отделом продаж на sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Ваш аккаунт заблокирован. Пожалуйста, свяжитесь с нашим отделом продаж по sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Ваш аккаунт заблокирован.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>Вы достигли максимального количества активаций лицензии. Пожалуйста, свяжитесь с нашим отделом продаж по sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxActivationsReached1>Вы можете управлять зарегистрированными компьютерами при помощи </ActivationMaxActivationsReached1>
+    <ActivationMaxActivationsReached2>Stimulsoft аккаунта.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>Вы уже зарегистрировали максимальное количество компьютеров, доступных для вашей подписки.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Сервер активации сейчас недоступен! Пожалуйста, попробуйте активировать лицензию позднее.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Вы не можете активировать эту версию Stimulsoft Server, т.к. Ваша Программа Подписки истекла! Пожалуйста, войдите в Ваш аккаунт на нашем сайте и проверьте, какую версию Stimulsoft Server Вы можете установить и активировать.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Во время активации лицензии произошла ошибка. Пожалуйста, попробуйте активировать лицензию позднее.</ActivationSomeTroublesOccurred>
     <ActivationTrialExpired>Вы можете продолжить использовать Stimulsoft Designer, купив программное обеспечение.</ActivationTrialExpired>
+    <ActivationTrialExtend1>Если необходимо продлить пробный период, пожалуйста, </ActivationTrialExtend1>
+    <ActivationTrialExtend2>напишите нам почему.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Имя пользователя (Email) или пароль указаны неверно!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Ваш тип аккаунта не позволяет активировать лицензию Stimulsoft Server!</ActivationWrongAccountType>
     <Alert>Тревога</Alert>
+    <AuthAccountAlreadyExists>Аккаунт с таким адресом электронной почты уже существует. Чтобы связать его с {0} аккаунтом введите пароль учетной записи Stimulsoft.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>Аккаунт не может быть использован сейчас!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>Этот аккаунт не активирован! Пожалуйста, следуйте инструкциям, которые были отправлены на Ваш Email во время регистрации.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Роль данного пользователя не может быть изменена, т.к. это последний администратор в этом рабочем пространстве.</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2423,6 +2437,7 @@
     <AuthWorkspaceNameAlreadyInUse>Наименование рабочего пространства уже используется!</AuthWorkspaceNameAlreadyInUse>
     <CommandTimeOut>Время ожидания выполнения команды истекло!</CommandTimeOut>
     <Congratulations>Поздравления!</Congratulations>
+    <DeveloperInformation>Информация для разработчиков</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Дата завершения должна быть больше текущей даты!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Дата завершения должна быть больше даты начала!</EndDateShouldBeGreaterThanStartDate>
     <EnterCurrentPassword>Введите текущий пароль!</EnterCurrentPassword>
@@ -2448,12 +2463,15 @@
     <NewDesignerAvailable>Stimulsoft Designer {0} доступен.</NewDesignerAvailable>
     <NewProduct>К Вашей подписке добавлен новый продукт!</NewProduct>
     <NewVersionsAvailable>Новая версия</NewVersionsAvailable>
+    <NotificationConnectPackage>Для корректной работы подключите пакет "{0}".</NotificationConnectPackage>
     <NotificationFailed>Неверный результат!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>Не удалось добавить следующие файлы. Превышен размер {0} МБ.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>Файлы успешно загружены.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>Загружается "{0}".</NotificationFileUploading>
     <NotificationItemDelete>Элементы удаляются.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Удаление элементов завершено успешно.</NotificationItemDeleteComplete>
+    <NotificationItemExtraComponentRequired>Требуется  установить дополнительный компонент</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallWebView>Для корректной работы Blockly редактора, необходимо установить среду выполнения WebView2.</NotificationItemInstallWebView>
     <NotificationItemRestore>Элементы восстанавливаются.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Восстановление элементов завершено успешно.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>Элементы перемещаются.</NotificationItemTransfer>
@@ -2463,6 +2481,7 @@
     <NotificationMailingComplete>Рассылка "{0}" завершена.</NotificationMailingComplete>
     <NotificationMailingWaitingProcessing>Рассылка "{0}" ожидает обработки.</NotificationMailingWaitingProcessing>
     <NotificationOperationAborted>Операция прервана!</NotificationOperationAborted>
+    <NotificationPackageRequiredToDisplay>Для отображения данного контента необходимо скачать пакет "{0}" с NuGet</NotificationPackageRequiredToDisplay>
     <NotificationRecycleBinCleaning>Корзина очищается.</NotificationRecycleBinCleaning>
     <NotificationRecycleBinCleaningComplete>Очистка корзхины завершена успешно.</NotificationRecycleBinCleaningComplete>
     <NotificationRecycleBinWaitingProcessing>Ожидается очистка корзины.</NotificationRecycleBinWaitingProcessing>
@@ -2473,6 +2492,7 @@
     <NotificationReportRenderingComplete>Отчет "{0}" построен.</NotificationReportRenderingComplete>
     <NotificationReportRenderingTaskIsCreated>Задача построения отчета "{0}" создана.</NotificationReportRenderingTaskIsCreated>
     <NotificationReportWaitingProcessing>Отчет "{0}" ожидает обработки.</NotificationReportWaitingProcessing>
+    <NotificationReturnToDesigner>Для продолжения работы вернитесь в Stimulsoft Designer.</NotificationReturnToDesigner>
     <NotificationSchedulerRunning>Планировщик "{0}" работает.</NotificationSchedulerRunning>
     <NotificationSchedulerRunningComplete>Планировщик "{0}" завершил работу.</NotificationSchedulerRunningComplete>
     <NotificationSchedulerRunningTaskIsCreated>Задача запуска планировщика "{0}" создана.</NotificationSchedulerRunningTaskIsCreated>
@@ -2528,7 +2548,9 @@
     <SpecifiedItemIsNot>Указанный элемент не "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Срок действия Вашей подписки истек!</SubscriptionExpired>
     <SubscriptionExpiredDate>Срок действия Вашей подписки истечет {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredDays>Срок подписки истекает</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Срок вашей подписки истек. Обновите подписку, чтобы получить последнюю версию.</SubscriptionExpiredExt>
+    <SubscriptionExpiredShort>Подписка истекла</SubscriptionExpiredShort>
     <SubscriptionsOut10>10 дней осталось, до завершения срока действия подписки!</SubscriptionsOut10>
     <SubscriptionsOut20>Срок действия подписки истекает через 20 дней!</SubscriptionsOut20>
     <SuccessfullyRenewed>Ваша подписка была успешно обновлена!</SuccessfullyRenewed>
@@ -2599,6 +2621,7 @@
     <ItemDataSources>Источники данных</ItemDataSources>
     <ItemFiles>Файлы</ItemFiles>
     <ItemFolders>Папки</ItemFolders>
+    <ItemForms>Формы</ItemForms>
     <ItemReportSnapshots>Снимки отчетов</ItemReportSnapshots>
     <ItemReportTemplates>Шаблоны отчетов</ItemReportTemplates>
     <ItemSchedulers>Планировщики</ItemSchedulers>
@@ -4138,8 +4161,16 @@
     <Low>Низкое</Low>
     <LowValues>Минимальные значения</LowValues>
     <MajorInterval>Основной интервал</MajorInterval>
+    <MapAfrica>Африка</MapAfrica>
+    <MapAsia>Азия</MapAsia>
+    <MapCustom>Пользовательские</MapCustom>
+    <MapEurope>Европа</MapEurope>
     <MapID>Карта</MapID>
+    <MapNorthAmerica>Северная Америка</MapNorthAmerica>
+    <MapOceania>Океания</MapOceania>
+    <MapPopularMaps>Популярные карты</MapPopularMaps>
     <Maps>Карты</Maps>
+    <MapSouthAmerica>Южная Америка</MapSouthAmerica>
     <MapStyle>Стиль</MapStyle>
     <MapType>Тип карты</MapType>
     <Margin>Отступ снаружи</Margin>
@@ -4190,6 +4221,7 @@
     <Move>Перемещение</Move>
     <Multiline>Многострочный</Multiline>
     <MultipleFactor>Кратный множитель</MultipleFactor>
+    <MultipleInitialization>Множественная инициализация</MultipleInitialization>
     <Name>Наименование</Name>
     <NameDataColumn>Колонка данных названий</NameDataColumn>
     <NameInSource>Наименование в источнике</NameInSource>
@@ -4327,6 +4359,7 @@
     <ReportUnit>Единица измерения</ReportUnit>
     <RequestFromUser>Запросить у пользователя</RequestFromUser>
     <RequestParameters>Требовать параметры</RequestParameters>
+    <ResetAllFilters>Сбросить все фильтры</ResetAllFilters>
     <ResetDataSource>Сброс данных</ResetDataSource>
     <ResetPageNumber>Сбросить номер страниц</ResetPageNumber>
     <Resize>Изменение размеров</Resize>
@@ -4455,6 +4488,7 @@
     <Sorted>Сортировать</Sorted>
     <SortingColumn>Колонка для сортировки</SortingColumn>
     <SortingEnabled>Сортировка включена</SortingEnabled>
+    <SortLetters>А-Я</SortLetters>
     <SortType>Тип сортировки</SortType>
     <Space>Пробел</Space>
     <SpaceRatio>Межсимвольный интервал</SpaceRatio>
@@ -4729,6 +4763,7 @@
   </QueryBuilder>
   <Questions>
     <qnConfiguration>Пожалуйста, выберите тип конфигурации для панели свойств. От типа выбранной конфигурации зависит количество отображаемых свойств и их сложности для разработчика отчетов. Вы всегда сможете изменить тип конфигурации из контекстного меню панели свойств.</qnConfiguration>
+    <qnCopyCategory>Скопировать все переменные из этой категории?</qnCopyCategory>
     <qnDictionaryNew>Создать новый словарь?</qnDictionaryNew>
     <qnLanguageNew>Вы изменили язык отчета, это приведет к генерации нового кода отчета. Вы уверены, что хотите сохранить новый язык?</qnLanguageNew>
     <qnPageDelete>Вы действительно хотите удалить страницу?</qnPageDelete>
@@ -4746,6 +4781,7 @@
   <RecentFiles>
     <AddAPlace>Добавить место</AddAPlace>
     <AddAPlaceDesc>Вы можете добавить местоположения, чтобы упростить сохранение отчетов в облаке.</AddAPlaceDesc>
+    <ChangeFileType>Изменить тип файла</ChangeFileType>
     <ChooseALocation>Выбрать место</ChooseALocation>
     <ClearUnpinnedItems>Очистить неприкрепленные элементы</ClearUnpinnedItems>
     <CopyPathToClipboard>Копировать путь в буфер обмена</CopyPathToClipboard>
@@ -4873,6 +4909,7 @@
     <SavingReport>Сохранение отчета</SavingReport>
     <SecondPass>Второй проход</SecondPass>
     <Shapes>Примитивы</Shapes>
+    <ShowOnParametersPanel>Показывать на панели параметров</ShowOnParametersPanel>
     <Standard>Стандартный</Standard>
     <StandardConfiguration>Основные свойства объектов за исключением редко используемых свойств.</StandardConfiguration>
     <StiEmptyBrush>Нет</StiEmptyBrush>

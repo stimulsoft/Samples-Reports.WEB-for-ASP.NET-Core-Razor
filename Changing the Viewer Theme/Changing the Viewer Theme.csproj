@@ -1,14 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Changing_the_Viewer_Theme</RootNamespace>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2022.5.1" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.1.1" />
   </ItemGroup>
-
 </Project>

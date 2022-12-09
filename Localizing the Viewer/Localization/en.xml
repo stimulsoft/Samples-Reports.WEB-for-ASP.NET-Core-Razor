@@ -399,6 +399,7 @@
     <DashboardWindowTitleNew>New Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Delete File</DeleteFile>
     <DoNotAskMe>Do not ask me again</DoNotAskMe>
+    <EnterUserNameToLogin>Enter User Name (email) to log in.</EnterUserNameToLogin>
     <ExecutionError>Execution error</ExecutionError>
     <ExpiredDate>Expired Date</ExpiredDate>
     <FileStorageWindowTitleEdit>Edit File Storage</FileStorageWindowTitleEdit>
@@ -1335,6 +1336,7 @@
     <ColumnsThree>Three</ColumnsThree>
     <ColumnsTwo>Two</ColumnsTwo>
     <CompilingReport>Compiling Report</CompilingReport>
+    <CopyPropertyName>Copy Property Name</CopyPropertyName>
     <DockingPanels>Panels</DockingPanels>
     <HtmlPreview>HTML Preview</HtmlPreview>
     <JsPreview>JS Preview</JsPreview>
@@ -1380,6 +1382,7 @@
     <CsvSeparatorTab>Tab</CsvSeparatorTab>
     <DatabaseEdit>Edit Database</DatabaseEdit>
     <DatabaseNew>New Database</DatabaseNew>
+    <DataMonitor>Data Monitor</DataMonitor>
     <DataParameterEdit>Edit Parameter</DataParameterEdit>
     <DataParameterNew>New Parameter</DataParameterNew>
     <DataSetToBusinessObjects>DataSet To Business Objects</DataSetToBusinessObjects>
@@ -1397,6 +1400,7 @@
     <DragNewDataSource>drag your data directly to this panel</DragNewDataSource>
     <DragNewReport>drag your report directly to this panel</DragNewReport>
     <EditQuery>Edit Query</EditQuery>
+    <EnableDataMonitor>Enable Data Monitor</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL statement executed successfully</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>New Expression</ExpressionNew>
     <GetColumnsFromAssembly>Get Columns from Assembly</GetColumnsFromAssembly>
@@ -1727,7 +1731,7 @@
     <Thumbnails>Thumbnails</Thumbnails>
     <title>Viewer</title>
     <titlePageSettings>Page Settings</titlePageSettings>
-    <Toolbar>Tool Bar</Toolbar>
+    <Toolbar>Tool bar</Toolbar>
     <VerScrollBar>Vertical Scroll Bar</VerScrollBar>
     <ViewMode>View Mode</ViewMode>
     <Zoom>Zoom</Zoom>
@@ -1845,6 +1849,7 @@
     <cust_pm_stytextonly>Text Only (Always)</cust_pm_stytextonly>
     <cust_tab_commands>Commands</cust_tab_commands>
     <cust_tab_options>Options</cust_tab_options>
+    <cust_tab_toolbar_alignment>Toolbar Alignment</cust_tab_toolbar_alignment>
     <cust_tab_toolbars>Toolbars</cust_tab_toolbars>
     <mdisysmenu_close>Close</mdisysmenu_close>
     <mdisysmenu_maximize>Maximize</mdisysmenu_maximize>
@@ -2252,6 +2257,7 @@
     <menuFileExit>E&amp;xit</menuFileExit>
     <menuFileExportXMLSchema>Export XML Schema...</menuFileExportXMLSchema>
     <menuFileFormNew>New Form</menuFileFormNew>
+    <menuFileFormOpen>Open Form</menuFileFormOpen>
     <menuFileImportXMLSchema>Import XML Schema...</menuFileImportXMLSchema>
     <menuFileMerge>Merge...</menuFileMerge>
     <menuFileMergeXMLSchema>Merge XML Schema...</menuFileMergeXMLSchema>
@@ -2348,12 +2354,13 @@
     <ShareURLOfTheItemHasBeenUpdated>The share URL of the item has been updated!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>To share your report you should save the report to Stimulsoft Cloud!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>Switching between modes will cause the loss of changes. Do you want to proceed?</SwitchingBetweenModes>
+    <SwitchParametersOrientation>Please change the value of the 'ParametersOrientation' report property to '{0}' to show this category on the parameters panel.</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>
-      Registration completed successfully!
+		Registration completed successfully!
 
-      The Email was sent to "{0}".
-      It contains a link to confirm your registration. To complete the registration please follow the link from the Email you received.
-    </TextRegistrationSuccessfully>
+		The Email was sent to "{0}".
+		It contains a link to confirm your registration. To complete the registration please follow the link from the Email you received.
+	</TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
     <ThisFunctionEmbedsAllReportDataToTheReport>This function embeds all report data to the report resources and makes your report standalone. Be careful! All your data settings will be changed and can't be restored. Please, make a backup copy of your report firstly.{0}Are you sure?</ThisFunctionEmbedsAllReportDataToTheReport>
     <YouNeedToLoginFirstToStartUsingTheSoftware>You need to login first to start using the software. The application will close if you quit the login form.</YouNeedToLoginFirstToStartUsingTheSoftware>
@@ -2361,19 +2368,26 @@
   <Notices>
     <AccessDenied>Access Denied!</AccessDenied>
     <AccountLocked>Your account is locked! In order to resolve it, please send your request to sales@stimulsoft.com!</AccountLocked>
+    <ActivationContact1>Please contact our sales department at </ActivationContact1>
+    <ActivationContact2> to resolve this.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Server was released!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>License file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Your account is locked.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxActivationsReached1>You can manage the registered computers from your </ActivationMaxActivationsReached1>
+    <ActivationMaxActivationsReached2>Stimulsoft Account.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>You’ve already registered the maximum number of computers available for your subscription.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
     <ActivationTrialExpired>You can continue to use Stimulsoft Designer by purchasing the software.</ActivationTrialExpired>
+    <ActivationTrialExtend1>If you are interested in extending your trial, please </ActivationTrialExtend1>
+    <ActivationTrialExtend2>tell us why.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Server!</ActivationWrongAccountType>
     <Alert>Alert</Alert>
+    <AuthAccountAlreadyExists>The account with this User Name (email) already exists. To associate it with your {0} account, please use your Stimulsoft account password.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>The account cannot be used now!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>The account is not activated yet! Please follow the instructions sent to the Email during registration.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>The user role cannot be changed because this is the last administrator user in this workspace!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2406,6 +2420,7 @@
     <AuthWorkspaceNameAlreadyInUse>The workspace name is already in use!</AuthWorkspaceNameAlreadyInUse>
     <CommandTimeOut>Waiting time of processing the command is elapsed!</CommandTimeOut>
     <Congratulations>Congratulations!</Congratulations>
+    <DeveloperInformation>Developer Information</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>The end date should be greater than start date!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Execution error</ExecutionError>
@@ -2428,12 +2443,15 @@
     <NewDesignerAvailable>Stimulsoft Designer {0} is available.</NewDesignerAvailable>
     <NewProduct>The new product is added to your subscription!</NewProduct>
     <NewVersionsAvailable>New version</NewVersionsAvailable>
+    <NotificationConnectPackage>Connect the "{0}" package for the correct work.</NotificationConnectPackage>
     <NotificationFailed>Failed result!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>Failed to add the following files. Exceeded the size {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>The files uploaded successfully.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>The file "{0}" is uploading.</NotificationFileUploading>
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
+    <NotificationItemExtraComponentRequired>Extra component required</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
     <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>The items are transferring.</NotificationItemTransfer>
@@ -2443,6 +2461,7 @@
     <NotificationMailingComplete>The mailing "{0}" is complete.</NotificationMailingComplete>
     <NotificationMailingWaitingProcessing>The mailing "{0}" is waiting processing.</NotificationMailingWaitingProcessing>
     <NotificationOperationAborted>Operation aborted!</NotificationOperationAborted>
+    <NotificationPackageRequiredToDisplay>To display this content, please download the "{0}" package from NuGet.</NotificationPackageRequiredToDisplay>
     <NotificationRecycleBinCleaning>The Recycle Bin is cleaning.</NotificationRecycleBinCleaning>
     <NotificationRecycleBinCleaningComplete>The Recycle Bin is cleaned successfully.</NotificationRecycleBinCleaningComplete>
     <NotificationRecycleBinWaitingProcessing>The Recycle Bin cleaning is waiting processing.</NotificationRecycleBinWaitingProcessing>
@@ -2451,6 +2470,7 @@
     <NotificationReportRendering>The report "{0}" is rendering</NotificationReportRendering>
     <NotificationReportRenderingComplete>The report "{0}" is rendered.</NotificationReportRenderingComplete>
     <NotificationReportWaitingProcessing>The report "{0}" is waiting processing.</NotificationReportWaitingProcessing>
+    <NotificationReturnToDesigner>Return to the Stimulsoft Designer to continue.</NotificationReturnToDesigner>
     <NotificationSchedulerRunning>The scheduler "{0}" is running.</NotificationSchedulerRunning>
     <NotificationSchedulerRunningComplete>The scheduler "{0}" running complete.</NotificationSchedulerRunningComplete>
     <NotificationSchedulerWaitingProcessing>The scheduler "{0}" is waiting processing.</NotificationSchedulerWaitingProcessing>
@@ -2483,7 +2503,9 @@
     <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Your subscription has expired!</SubscriptionExpired>
     <SubscriptionExpiredDate>Your subscription will expire on {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredDays>Expires in {0} days</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Your subscription has expired. Update your subscription to get the last version.</SubscriptionExpiredExt>
+    <SubscriptionExpiredShort>Subscription expired</SubscriptionExpiredShort>
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -2554,6 +2576,7 @@
     <ItemDataSources>Data Sources</ItemDataSources>
     <ItemFiles>Files</ItemFiles>
     <ItemFolders>Folders</ItemFolders>
+    <ItemForms>Forms</ItemForms>
     <ItemReportSnapshots>Report Snapshots</ItemReportSnapshots>
     <ItemReportTemplates>Report Templates</ItemReportTemplates>
     <ItemSchedulers>Schedulers</ItemSchedulers>
@@ -4076,8 +4099,16 @@
     <Low>Low</Low>
     <LowValues>Low Values</LowValues>
     <MajorInterval>Major Interval</MajorInterval>
+    <MapAfrica>Africa</MapAfrica>
+    <MapAsia>Asia</MapAsia>
+    <MapCustom>Custom</MapCustom>
+    <MapEurope>Europe</MapEurope>
     <MapID>Map ID</MapID>
+    <MapNorthAmerica>North America</MapNorthAmerica>
+    <MapOceania>Oceania</MapOceania>
+    <MapPopularMaps>Popular maps</MapPopularMaps>
     <Maps>Maps</Maps>
+    <MapSouthAmerica>South America</MapSouthAmerica>
     <MapStyle>Map Style</MapStyle>
     <MapType>Map Type</MapType>
     <Margin>Margin</Margin>
@@ -4128,6 +4159,7 @@
     <Move>Move</Move>
     <Multiline>Multiline</Multiline>
     <MultipleFactor>Multiple Factor</MultipleFactor>
+    <MultipleInitialization>Multiple Initialization</MultipleInitialization>
     <Name>Name</Name>
     <NameDataColumn>Name Data Column</NameDataColumn>
     <NameInSource>Name in Source</NameInSource>
@@ -4265,6 +4297,7 @@
     <ReportUnit>Report Unit</ReportUnit>
     <RequestFromUser>Request from User</RequestFromUser>
     <RequestParameters>Request Parameters</RequestParameters>
+    <ResetAllFilters>Reset All Filters</ResetAllFilters>
     <ResetDataSource>Reset Data Source</ResetDataSource>
     <ResetPageNumber>Reset Page Number</ResetPageNumber>
     <Resize>Resize</Resize>
@@ -4391,6 +4424,7 @@
     <Sorted>Sorted</Sorted>
     <SortingColumn>Sorting Column</SortingColumn>
     <SortingEnabled>Sorting Enabled</SortingEnabled>
+    <SortLetters>A-Z</SortLetters>
     <SortType>Sort Type</SortType>
     <Space>Space</Space>
     <SpaceRatio>Space Ratio</SpaceRatio>
@@ -4665,6 +4699,7 @@
   </QueryBuilder>
   <Questions>
     <qnConfiguration>Please choose the type of configuration for the properties panel. The type of the selected configuration depends on the number of visible properties and their complexity for the developer of reports. You can always change the configuration type from the context menu of the properties panel.</qnConfiguration>
+    <qnCopyCategory>Do you want to copy all variables of this category?</qnCopyCategory>
     <qnDictionaryNew>Do you want to create new Dictionary?</qnDictionaryNew>
     <qnLanguageNew>You have changed the language of the report. This will lead to the new report code generation. Are you certain you want to save the new language?</qnLanguageNew>
     <qnPageDelete>Do you want to delete page?</qnPageDelete>
@@ -4682,6 +4717,7 @@
   <RecentFiles>
     <AddAPlace>Add a Place</AddAPlace>
     <AddAPlaceDesc>You can add locations to make it easier to save Reports to the cloud.</AddAPlaceDesc>
+    <ChangeFileType>Change file type</ChangeFileType>
     <ChooseALocation>Choose a Location</ChooseALocation>
     <ClearUnpinnedItems>Clear unpinned items</ClearUnpinnedItems>
     <CopyPathToClipboard>Copy path to clipboard</CopyPathToClipboard>
@@ -4808,6 +4844,7 @@
     <SavingReport>Saving Report</SavingReport>
     <SecondPass>Second Pass</SecondPass>
     <Shapes>Shapes</Shapes>
+    <ShowOnParametersPanel>Show on Parameters Panel</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Main object properties except rarely used ones.</StandardConfiguration>
     <StiEmptyBrush>Empty</StiEmptyBrush>
