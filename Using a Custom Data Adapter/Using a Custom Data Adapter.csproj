@@ -7,6 +7,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="6.0.7" />
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.3" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.4" />
   </ItemGroup>
 </Project>
