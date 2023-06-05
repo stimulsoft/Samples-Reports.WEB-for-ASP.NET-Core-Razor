@@ -1,6 +1,6 @@
 # ASP.NET Core Razor samples for Stimulsoft Reports.WEB
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.WEB reporting tool in the ASP.NET Core Razor applications, using C# code and HTML5 components. Stimulsoft Reports.WEB report generator and examples are compatible with .NET 5, .NET 6, and .NET 7 frameworks.
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.WEB reporting tool in the ASP.NET Razor Pages apps, using C# code and HTML5 components. Stimulsoft Reports.WEB report builder and examples are compatible with .NET Core 3.1, .NET 5.0, .NET 6.0, and .NET 7.0 frameworks.
 
 ## Overview
 This repository contains a set of examples (Visual Studio projects), each in different folders:
@@ -29,19 +29,23 @@ This repository contains a set of examples (Visual Studio projects), each in dif
 All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings.
 
 ## Running samples
-In order to start simply open the Visual Studio solution file in the IDE and run the required project as Startup Project. The required libraries will be automatically downloaded from NuGet repository.
+In order to start simply open the Visual Studio solution file in the IDE and run the required project as Startup Project. The required libraries will be automatically downloaded from the NuGet repository.
+
+## Other Web reporting components
+* [ASP.NET](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET)
+* [ASP.NET MVC](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-MVC)
+* [ASP.NET Core](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core)
+* [ASP.NET Angular](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Angular)
+* [Blazor Server](https://github.com/stimulsoft/Samples-Reports.WEB-for-Blazor-Server)
+* [Blazor WebAssembly](https://github.com/stimulsoft/Samples-Reports.WEB-for-Blazor-WebAssembly)
 
 ## About Stimulsoft Reports.WEB
-Stimulsoft Reports.WEB is a reporting tool designed to create and render reports in Web using .NET Framework and .NET Core report engines. Stimulsoft Reports.WEB will provide the complete cycle of report designing, from creating report templates and ending with showing them in a web browser. All this can be done without closing a web browser. Stimulsoft Reports.WEB is the reporting tool that allows you to edit reports directly in Web.
+Stimulsoft Reports.WEB is a cross-platform reporting tool designed to create, build, show, print, and export reports in a web browser. The product includes everything you need to integrate reporting tools into your application built on various platforms. The product contains a powerful and fast report engine that uses a universal .NET platform, a simple and convenient HTML5 report designer, and an interactive and fast HTML5 viewer.
 
-## Links
+## Useful links
 
-[Live Demo](http://demo.stimulsoft.com/#Net)
-
-[Product Page](https://www.stimulsoft.com/en/products/reports-web)
-
-[Free Download](https://www.stimulsoft.com/en/downloads)
-
-[NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Web.NetCore)
-
-[License](LICENSE.md)
+* [Live Demo](http://demo.stimulsoft.com/#Net)
+* [Product Page](https://www.stimulsoft.com/en/products/reports-web)
+* [Free Download](https://www.stimulsoft.com/en/downloads)
+* [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Web.NetCore)
+* [License](LICENSE.md)
