@@ -37,12 +37,17 @@ namespace Saving_a_Report_Template_in_the_Designer.Pages
 
         public IActionResult OnPostSaveReport()
         {
+            var requestParams = StiNetCoreDesigner.GetRequestParams(this);
             var report = StiNetCoreDesigner.GetReportObject(this);
 
             // Save the report template, for example to JSON string
             var json = report.SaveToJsonString();
 
-            return StiNetCoreDesigner.SaveReportResult(this);
+            var name1 = report.ReportName; // Original report name
+            var name2 = requestParams.Designer.FileName; // Report name from the Save dialog
+
+            //return StiNetCoreDesigner.SaveReportResult(this);
+            return Content($"{{\"infoMessage\":\"Report file saved successfully as {name2}\"}}");
         }
 
         public IActionResult OnPostSaveReportAs()
