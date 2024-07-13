@@ -1,0 +1,15 @@
+﻿@page "{id}"
+@model ViewerModel
+@using Stimulsoft.Report.Mvc;
+@{
+    ViewData["Title"] = "Viewer";
+}
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    }
+})

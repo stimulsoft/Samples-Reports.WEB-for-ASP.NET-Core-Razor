@@ -1,0 +1,19 @@
+﻿@page
+@model ViewerPOSTModel
+@using Stimulsoft.Report.Mvc;
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    },
+    Server =
+    {
+        PassFormValues = true
+    }
+})

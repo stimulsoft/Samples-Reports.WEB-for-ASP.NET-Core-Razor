@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@using Stimulsoft.Report.Mvc;
+@using Stimulsoft.Report.Web;
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    },
+    Appearance =
+    {
+        FullScreenMode = true
+    },
+    Toolbar =
+    {
+        ShowFullScreenButton = false,
+        DisplayMode = StiToolbarDisplayMode.Separated
+    }
+})

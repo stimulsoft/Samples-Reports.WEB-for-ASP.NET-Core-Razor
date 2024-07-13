@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@using Stimulsoft.Report.Web;
+@using Stimulsoft.Report.Mvc;
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    },
+    Appearance =
+    {
+        BackgroundColor = System.Drawing.Color.DimGray
+    },
+
+    Theme = StiViewerTheme.Office2022BlackPurple
+})

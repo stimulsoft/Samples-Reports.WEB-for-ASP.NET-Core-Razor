@@ -1,0 +1,18 @@
+﻿@page
+@model DefaultCacheModel
+@using Stimulsoft.Report.Mvc;
+@{
+    ViewData["Title"] = "Default Cache";
+}
+
+<h2>Default Cache</h2>
+<br />
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    }
+})

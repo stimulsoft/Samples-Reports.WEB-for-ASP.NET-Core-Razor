@@ -1,0 +1,40 @@
+﻿@page "{id?}"
+@model IndexModel
+@using Stimulsoft.Report.Mvc;
+
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<table>
+    <tr>
+        <td class="reports" valign="top">
+            <div style="width: 150px;">
+                <a href="/1">Simple List</a>
+                <br />Report Snapshot
+
+                <br /><br />
+                <a href="/2">Two Simple Lists</a>
+                <br />Report Template
+
+                <br /><br />
+                <a href="/3">Master Detail</a>
+                <br />Compiled Report Class
+
+                <br /><br />
+                <a href="/4">Selecting Country</a>
+                <br />Compiled Report Class
+            </div>
+        </td>
+        <td style="width: 100%;" valign="top">
+            @Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+            {
+                Actions =
+                {
+                    GetReport = "GetReport",
+                    ViewerEvent = "ViewerEvent"
+                }
+            })
+        </td>
+    </tr>
+</table>

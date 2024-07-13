@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@using Stimulsoft.Report.Mvc;
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        EmailReport = "EmailReport",
+        ViewerEvent = "ViewerEvent"
+    },
+    Toolbar =
+    {
+        ShowSendEmailButton = true
+    }
+})

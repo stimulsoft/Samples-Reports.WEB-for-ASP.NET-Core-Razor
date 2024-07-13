@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@using Stimulsoft.Report.Mvc;
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@Html.StiNetCoreDesigner(new StiNetCoreDesignerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        SaveReport = "SaveReport",
+        //SaveReportAs = "SaveReportAs",
+        DesignerEvent = "DesignerEvent"
+    }
+})

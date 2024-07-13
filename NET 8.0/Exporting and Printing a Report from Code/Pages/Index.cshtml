@@ -1,0 +1,35 @@
+﻿@page "{handler?}"
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<br />
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Print to PDF</h2>
+        <a href="PrintPdf">Print</a>
+    </div>
+    <div class="col-md-4">
+        <h2>Print to HTML</h2>
+        <a href="PrintHtml">Print</a>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <h2>Export to PDF</h2>
+        <a href="ExportPdf">Export</a>
+    </div>
+    <div class="col-md-4">
+        <h2>Export to HTML</h2>
+        <a href="ExportHtml">Export</a>
+    </div>
+    <div class="col-md-4">
+        <h2>Export to Excel</h2>
+        <a href="ExportXls">Export</a>
+    </div>
+</div>
+
+<br />
