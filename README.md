@@ -1,6 +1,6 @@
 # ASP.NET Core Razor samples for Stimulsoft Reports.WEB
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.WEB reporting tool in the ASP.NET Razor Pages apps, using C# code and HTML5 components. Stimulsoft Reports.WEB report builder and examples are compatible with .NET Standard 2.1, .NET Core 3.1, .NET 5.0, .NET 6.0, .NET 7.0, and .NET 8.0 frameworks. The product is fully compatible with Windows, Linux, and macOS systems.
+#### This repository contains source code examples demonstrating the usage of the Stimulsoft Reports.WEB reporting tool in the ASP.NET Razor Pages apps, using C# code and HTML5 components. Stimulsoft Reports.WEB report builder and components are compatible with .NET 6.0, .NET 7.0, .NET 8.0, and .NET 9.0 frameworks. The product is fully compatible with Windows, Linux, and macOS systems.
 
 ## Overview
 This repository has a set of examples (Visual Studio projects), each in different folders:
